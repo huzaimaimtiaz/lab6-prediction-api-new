@@ -2,6 +2,7 @@ import random
 from flask import Flask, request, jsonify
 
 ROLL_NUMBER = "FA23-BDS-017"
+print("hello")
 
 # Coefficients generated deterministically from the roll number seed
 random.seed(ROLL_NUMBER)
